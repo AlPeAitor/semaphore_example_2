@@ -6,10 +6,10 @@ import java.util.concurrent.Semaphore;
 public class Cuadrilatero {
 
     private static final int MAX_AVAILABLE = 2;
-    private static final Semaphore available = new Semaphore(MAX_AVAILABLE, true);
+    private static final Semaphore available = new Semaphore(MAX_AVAILABLE, false);
 
     private static Luchador ganador;
-    public static void AddParticipante(Luchador luchador) throws InterruptedException {
+    public static void addParticipante(Luchador luchador) throws InterruptedException {
         available.acquire();
         System.out.println("Entra al ring el luchador " + luchador.getName());
         if (ganador == null ) {

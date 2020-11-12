@@ -6,7 +6,7 @@ public class Main {
     // Tendremos una clase cuadrilatero donde se realizarán las peleas entre 2 luchadores (otra clase)
     // Mediante un semaforo nos aseguraremos de que no haya mas de dos participantes al mismo tiempo
     // La forma de elegir ganador puede ser como tu quieras, yo he puesto un booleano aleatorio.
-    // Cuando empieza el combate, todos los luchadores están intentando subir al cuadrilaterio.
+    // Cuando empieza el combate, todos los luchadores están intentando subir al cuadrilaterio a la vez.
     // Cuando un luchador ha sido derrotado entra el siguiente
 
 

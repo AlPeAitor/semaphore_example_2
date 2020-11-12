@@ -6,7 +6,7 @@ public class Luchador extends Thread {
     @Override
     public void run() {
         try {
-            Cuadrilatero.AddParticipante(this);
+            Cuadrilatero.addParticipante(this);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
